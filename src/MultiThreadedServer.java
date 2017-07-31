@@ -19,7 +19,7 @@ public class MultiThreadedServer implements Runnable {
         System.out.println("Enter the size of thread pool:- "+n);
 
         int noOfClient = 1;
-        ServerSocket serverSocket = new ServerSocket(1234);
+        ServerSocket serverSocket = new ServerSocket(3333);
         System.out.println("Listening...");
 
         while (true) {
